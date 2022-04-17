@@ -36,3 +36,21 @@ header {
   width: 20px;
   height: 20px;
 }
+
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-visual {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+#main-visual img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
