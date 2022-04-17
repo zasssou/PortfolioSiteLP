@@ -113,3 +113,54 @@ section {
   padding: 15px;
   border-bottom: 1px solid #c8c8c8;
 }
+
+/* contact */
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+#contact dt {
+  width: 15%;
+  font-weight: normal;
+}
+
+#contact dd {
+  width: 85%;
+}
+
+.form-box input {
+  border: 1px solid #c8c8c8;
+  width: 100%;
+  height: 43px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.form-box textarea {
+  border: 1px solid #c8c8c8;
+  width: 100%;
+  height: 160px;
+  padding: 15px;
+  resize: vertical;
+}
+
+.send-button {
+  display: flex;
+  justify-content: center;
+}
+
+.send-button input {
+  width: 200px;
+  height: 53px;
+  text-align: center;
+  background-color: #24292e;
+  color: #fff;
+}
+
+.send-button input:hover {
+  background-color: #fff;
+  color: #24292e;
+  border: 1px solid #24292e;
+}
