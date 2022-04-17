@@ -4,6 +4,7 @@ body {
   font-family: 'Meiryo';
   font-size: 0.9em;
   color: #24292e;
+  line-height: 1.5em;
 }
 
 /* header */
@@ -85,6 +86,7 @@ section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 #works li {
@@ -172,4 +174,61 @@ footer {
   font-size: 10px;
   text-align: center;
   padding: 10px 20px;
+}
+
+/* smartphone */
+@media screen and (max-width: 600px) {
+  #header {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  #header h1 {
+    margin-top: 20px;
+  }
+
+  #header ul {
+    margin: 10px 0;
+  }
+
+  section {
+    margin-bottom: 70px;
+  }
+
+  .section-title {
+    margin-bottom: 40px;
+  }
+
+  #works ul {
+    flex-direction: column;
+  }
+
+  #works li {
+    width: 100%;
+  }
+
+  #news dl {
+    flex-direction: column;
+  }
+
+  #news dt {
+    width: 100%;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  #news dd {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  #contact dl {
+    flex-direction: column;
+  }
+
+  #contact dt,
+  #contact dd {
+    width: 100%;
+  }
 }
