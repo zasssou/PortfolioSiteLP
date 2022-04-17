@@ -164,3 +164,15 @@ section {
   color: #24292e;
   border: 1px solid #24292e;
 }
+
+footer {
+  background-color: #24292e;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+}
