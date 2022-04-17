@@ -77,3 +77,18 @@ section {
 #about li:first-child {
   margin-bottom: 30px;
 }
+
+/* works  */
+#works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#works li {
+  margin-bottom: 23px;
+}
+
+#works img {
+  width: 268px;
+}
